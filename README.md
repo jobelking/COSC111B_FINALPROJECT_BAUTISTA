@@ -18,9 +18,6 @@ A comprehensive collection of Arduino-based laboratory activities demonstrating 
 - [Lab Examinations](#lab-examinations)
   - [Midterm Exam - Adaptive Light Sensor System](#midterm-exam---adaptive-light-sensor-system)
   - [Final Exam - API Button Integration](#final-exam---api-button-integration)
-- [Hardware Components](#hardware-components)
-- [How to Use](#how-to-use)
-- [Author](#author)
 
 ---
 
