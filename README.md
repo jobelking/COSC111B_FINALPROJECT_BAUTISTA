@@ -382,7 +382,7 @@ An advanced light monitoring system with dual modes (Automatic/Manual) and adjus
 ---
 
 ### Final Exam - API Button Integration
-📂 **Folder:** `LabExam_Finals/LabExam_Finals/`
+📂 **Folder:** `LabExam_Finals/`
 
 #### Description
 Integration project connecting physical Arduino buttons to external API endpoints for remote LED control.
