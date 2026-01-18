@@ -4,7 +4,7 @@ A comprehensive collection of Arduino-based laboratory activities demonstrating 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Laboratory Activities](#laboratory-activities)
@@ -21,7 +21,7 @@ A comprehensive collection of Arduino-based laboratory activities demonstrating 
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This repository contains all laboratory activities and examinations for **COSC111B** course. Each laboratory demonstrates progressively advanced concepts in:
 
@@ -45,12 +45,12 @@ This repository contains all laboratory activities and examinations for **COSC11
 
 ---
 
-## 📁 Laboratory Activities
+## Laboratory Activities
 
 ---
 
 ### Laboratory 1 - LED Sequential Control
-📂 **Folder:** `Laboratory_1/`
+**Folder:** `Laboratory_1/`
 
 #### Description
 Introduction to basic Arduino programming with sequential LED control using arrays and loops.
@@ -85,7 +85,7 @@ Introduction to basic Arduino programming with sequential LED control using arra
 ---
 
 ### Laboratory 2 - PWM Brightness Control
-📂 **Folder:** `Laboratory_2/`
+**Folder:** `Laboratory_2/`
 
 #### Description
 Advanced LED control using Pulse Width Modulation (PWM) for smooth brightness transitions on compatible pins.
@@ -120,7 +120,7 @@ if (ledPins[counts]!=9 && ledPins[counts]!=10 && ledPins[counts]!=11) {
 ---
 
 ### Laboratory 3 - Fire Detection System
-📂 **Folder:** `Laboratory_3/`
+**Folder:** `Laboratory_3/`
 
 #### Description
 A multi-sensor fire detection system using temperature and light sensors to detect potential fire conditions.
@@ -162,7 +162,7 @@ float temperature = 1 / (log(resistance / 10000.0) / 3950 + 1 / 298.15) - 273.15
 ---
 
 ### Laboratory 4 - Light Threshold Alert System
-📂 **Folder:** `Laboratory_4/`
+**Folder:** `Laboratory_4/`
 
 #### Description
 A light-based alert system with Serial command control to stop the blinking alert.
@@ -194,7 +194,7 @@ A light-based alert system with Serial command control to stop the blinking aler
 ---
 
 ### Laboratory 5 - Serial LED Controller
-📂 **Folder:** `Laboratory_5/`
+**Folder:** `Laboratory_5/`
 
 #### Description
 Interactive LED control through both Arduino Serial Monitor and a Python-based terminal interface.
@@ -242,7 +242,7 @@ python Laboratory_5.py
 ---
 
 ### Laboratory 6 - Bi-directional Serial Communication
-📂 **Folder:** `Laboratory_6/`
+**Folder:** `Laboratory_6/`
 
 #### Description
 Full-duplex communication between Arduino and Python - physical buttons on Arduino control LEDs via Python, and Python commands control LEDs on Arduino.
@@ -286,7 +286,7 @@ Full-duplex communication between Arduino and Python - physical buttons on Ardui
 ---
 
 ### Laboratory 7 - FastAPI Web-Controlled LEDs
-📂 **Folder:** `Laboratory_7/`
+**Folder:** `Laboratory_7/`
 
 #### Description
 Web-based LED control using FastAPI to create RESTful endpoints that communicate with Arduino via serial.
@@ -336,12 +336,12 @@ curl http://localhost:8000/led/red
 
 ---
 
-## 📝 Lab Examinations
+## Lab Examinations
 
 ---
 
 ### Midterm Exam - Adaptive Light Sensor System
-📂 **Folder:** `LabExam_Midterms/`
+**Folder:** `LabExam_Midterms/`
 
 #### Description
 An advanced light monitoring system with dual modes (Automatic/Manual) and adjustable thresholds via Serial commands.
@@ -356,9 +356,9 @@ An advanced light monitoring system with dual modes (Automatic/Manual) and adjus
   - **Automatic Mode:** Uses default thresholds with environment detection
   - **Manual Mode:** User-adjustable thresholds via Serial commands
 - **LED Indicators:**
-  - 🟢 Green: Low light (≤ LOW_THRESHOLD)
-  - 🟡 Yellow: Medium light (between thresholds)
-  - 🔴 Red: High light (≥ HIGH_THRESHOLD)
+  - Green: Low light (≤ LOW_THRESHOLD)
+  - Yellow: Medium light (between thresholds)
+  - Red: High light (≥ HIGH_THRESHOLD)
 - **Environment Detection (Auto mode):**
   - ≤40%: "Cloudy"
   - >40%: "Clear"
@@ -382,7 +382,7 @@ An advanced light monitoring system with dual modes (Automatic/Manual) and adjus
 ---
 
 ### Final Exam - API Button Integration
-📂 **Folder:** `LabExam_Finals/`
+**Folder:** `LabExam_Finals/`
 
 #### Description
 Integration project connecting physical Arduino buttons to external API endpoints for remote LED control.
